@@ -17,7 +17,7 @@ The Termux bootstrap is capable of running our vector DB, but it currently requi
 - `store_signed_termux.cpp` – the memory-mapped vector store (builds for aarch64)
 - `store_server_termux.py` – Flask test server (port 5020)
 
-<img width="720" height="1599" alt="image" src="https://github.com/user-attachments/assets/deb9caef-653a-40d0-ac88-6b492c9a51bb" />
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/deb9caef-653a-40d0-ac88-6b492c9a51bb" />
 
 GitHub folder: https://github.com/sprites202/aurrium-os/tree/main/mmaped_vector_db
 
