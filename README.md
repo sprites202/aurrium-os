@@ -12,7 +12,7 @@ Demo Video:
 
 # Claimed vector database connection
 
-The Termux bootstrap is capable of running our vector DB, but it currently requires hosting an external server for the embedding models. To show its capability to run memory-mapped databases, we have included 2 files in the `mmaped_vector_db` folder:
+The Termux bootstrap is capable of running our vector DB, but it currently requires hosting an external server for the embedding models. It is also yet to be parallelized by changing the structure to a contiguous page per cluster. To show its capability to run memory-mapped databases, we have included 2 files in the `mmaped_vector_db` folder:
 
 - `store_signed_termux.cpp` – the memory-mapped vector store (builds for aarch64)
 - `store_server_termux.py` – Flask test server (port 5020)
